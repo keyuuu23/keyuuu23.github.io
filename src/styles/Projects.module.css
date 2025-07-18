@@ -1,0 +1,105 @@
+main{
+    padding-top: 15%
+}
+
+body{
+    background-color: #E7E2D7;
+}
+
+h1, h2, h3{
+    font-family: Titulos;
+    color: #1A1A1A;
+}
+
+p{
+    font-family: RegularText;
+    color: #1A1A1A;
+}
+
+.projects{
+    border: 2px solid #1A1A1A;
+    border-radius: 35px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+}
+
+.videogames, .react, .java{
+    border: 2px solid #1A1A1A;
+    border-radius: 35px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+}
+
+.react ul, .java ul{
+    list-style: none;
+}
+
+.projects h1{
+    font-size: 38px;
+}
+
+.projects h3{
+    margin-top: -1%;
+    font-size: 22px;
+}
+
+.projects p{
+    
+    margin-top: 2%;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.infoContainer {
+    margin-bottom: 3%;
+}
+
+.whatIDid h2, .whatIKnow h2{
+    font-size: 34px;
+}
+
+.whatIDid p, .whatIKnow p{
+    color: #1A1A1A;
+    margin-top: 2%;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.gamesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.cardText {
+  flex: 1;
+}
+
+.cardText h3 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.cardText p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}

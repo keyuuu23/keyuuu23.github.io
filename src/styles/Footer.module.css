@@ -1,0 +1,84 @@
+footer{
+    background-color: #96A2B3 ;
+    height: 145px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A1A1A;
+    gap: 15%;
+}
+
+.recordPlayer {
+    width: 160px;
+    height: 140px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.recordPlayer img {
+    width: 100%;
+    height: 100%;
+}
+
+.discsButton {
+    width: 160px;
+    height: 140px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.discsButton img {
+    width: 100%;
+    height: 100%;
+}
+
+.discOptions {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.discSelector:hover .discOptions {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.discOptions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    transition: transform 0.2s ease;
+}
+
+.discOptions button:hover {
+    transform: scale(1.1);
+}
+
+.discOptions img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@keyframes zoom {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1.1);}
+    
+}

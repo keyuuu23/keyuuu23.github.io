@@ -1,0 +1,95 @@
+main{
+    padding-top: 15%
+}
+
+body{
+    background-color: #E7E2D7;
+}
+
+h1, h2, h3{
+    font-family: Titulos;
+    color: #1A1A1A;
+}
+
+p{
+    font-family: RegularText;
+    color: #1A1A1A;
+}
+
+.aboutMe{
+    border: 2px solid #1A1A1A;
+    border-radius: 35px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+}
+
+.whatIDid, .whatIKnow, .skillsNdLanguages{
+    border: 2px solid #1A1A1A;
+    border-radius: 35px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 8%;
+}
+
+.whatIDid ul, .skillsNdLanguages ul{
+    list-style: none;
+}
+
+.aboutMe h1{
+    font-size: 38px;
+}
+
+.aboutMe h3{
+    margin-top: -1%;
+    font-size: 22px;
+}
+
+.aboutMe p{
+    
+    margin-top: 2%;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.infoContainer {
+    display: flex;
+    margin-bottom: 3%;
+}
+
+.leftContainer {
+    width: 50%;
+    margin-left: 3%;
+}
+.rightContainer {
+    width: 50%;
+    margin-right: 3%;
+}
+
+.whatIDid h2, .whatIKnow h2{
+    font-size: 34px;
+}
+
+.whatIDid p, .whatIKnow p{
+    color: #1A1A1A;
+    margin-top: 2%;
+    font-size: 15px;
+    line-height: 2;
+}
+
+@font-face {
+    font-family: Titulos;
+    src: url(../../public/assets/fonts/Sentient-Regular.otf);
+}
+
+@font-face {
+    font-family: RegularText;
+    src: url(../../public/assets/fonts/Satoshi-Regular.otf);
+}
+
+@font-face {
+    font-family: Glomps;
+    src: url(../../public/assets/fonts/Panchang-Regular.otf);
+}
