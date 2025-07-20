@@ -1,5 +1,9 @@
 import {useEffect, useRef, useState} from 'react';
 import styles from '../styles/Glomp.module.css'
+import buttonControl from '../assets/img/controlesBoton.gif'
+import buttonStart from '../assets/img/empezarBoton.gif'
+import scenario from '../assets/img/escenario.gif'
+import controlMenu from '../assets/img/menuControles.gif'
 
 function Glomp() {
 
@@ -269,15 +273,15 @@ function Glomp() {
 
             {!showGame && (
                 <div className={styles.menuButtons}>
-                    <button onClick={() => {if (hasLostRef.current || hasWonRef.current) return; setShowGame(true);}} style = {{backgroundImage: "url(../assets/img/empezarBoton.gif)"}}>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</button>
-                    <button onClick={() => setShowControls(true)} style={{ backgroundImage: "url(../assets/img/controlesBoton.gif)" }}>
+                    <button onClick={() => {if (hasLostRef.current || hasWonRef.current) return; setShowGame(true);}} style = {{backgroundImage: `url(${buttonStart})`}}>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</button>
+                    <button onClick={() => setShowControls(true)} style={{ backgroundImage: `url(${buttonControl})` }}>
                     ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</button>
                 </div>
             )}
 
             {showGame && (
                 <div className={styles.gameContainer}>
-                    <img src="../assets/img/escenario.gif" alt="Fondo animado" className={styles.background} />
+                    <img src={scenario} alt="Fondo animado" className={styles.background} />
                     <div className={styles.killCounter}>
                         Slimes Eliminados: {killCount}/25
                     </div>
@@ -314,7 +318,7 @@ function Glomp() {
                 <div className={styles.controlsOverlay}>
                     <div className={styles.controlsPanel}>
                         <button className={styles.closeButton} onClick={() => setShowControls(false)}>X</button>
-                        <img src="../assets/img/menuControles.gif" alt="Controles" className={styles.controlsImage} />
+                        <img src={controlMenu} alt="Controles" className={styles.controlsImage} />
                     </div>
                 </div>
             )}

@@ -1,5 +1,11 @@
 import {useState, useRef} from 'react';
 import styles from '../styles/Footer.module.css';
+import gramolaOn from '../assets/img/tocadiscoson.gif'
+import gramolaOff from '../assets/img/tocadiscosoff.gif'
+import discs from '../assets/img/discos.gif'
+import discOne from '../assets/img/disco1.gif'
+import discTwo from '../assets/img/disco2.gif'
+import discThree from '../assets/img/disco3.gif'
 
 function Footer() {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -7,9 +13,9 @@ function Footer() {
     const audioRef = useRef(new Audio());
 
     const songs = {
-        disco1: "../assets/audio/jericho.mp3",
-        disco2: "../assets/audio/otherworldlyFoe.mp3",
-        disco3: "../assets/audio/somethingAboutUs.mp3"
+        disco1: "/assets/audio/jericho.mp3",
+        disco2: "/assets/audio/otherworldlyFoe.mp3",
+        disco3: "/assets/audio/somethingAboutUs.mp3"
     };
 
     const handleSelectSong = (key) => {
@@ -46,23 +52,23 @@ function Footer() {
                     title={currentSong ? (isPlaying ? "Pausar" : "Reproducir") : "Selecciona un disco primero"}
                 >
                     <img 
-                        src={isPlaying ? "../assets/img/tocadiscoson.gif" : "../assets/img/tocadiscosoff.gif"} 
+                        src={isPlaying ? gramolaOn : gramolaOff} 
                         alt="TocaDiscos" 
                     />
                 </button>
 
                 <div className={styles.discSelector}>
                     <button className={styles.discsButton}>
-                        <img src="../assets/img/discos.gif" alt="Discos" />
+                        <img src={discs} alt="Discos" />
                         <div className={styles.discOptions}>
                             <button onClick={() => handleSelectSong('disco1')}>
-                                <img src="../assets/img/disco1.gif" alt="Disco 1" />
+                                <img src={discOne} alt="Disco 1" />
                             </button>
                             <button onClick={() => handleSelectSong('disco2')}>
-                                <img src="../assets/img/disco2.gif" alt="Disco 2" />
+                                <img src={discTwo} alt="Disco 2" />
                             </button>
                             <button onClick={() => handleSelectSong('disco3')}>
-                                <img src="../assets/img/disco3.gif" alt="Disco 3" />
+                                <img src={discThree} alt="Disco 3" />
                             </button>
                         </div>
                     </button>

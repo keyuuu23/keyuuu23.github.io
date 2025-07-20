@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css';
+import star from '../assets/img/star.gif'
 
 function Home() {
 
@@ -19,12 +20,12 @@ function Home() {
                         <h2>¿Que he hecho?</h2>
                         <p>En los años que llevo formandome he:
                             <ul>
-                                <li><img src="../assets/img/star.gif" alt="star"/> Desarrollado alphas de videojuegos en Unity con C#.</li>
-                                <li><img src="../assets/img/star.gif" alt="star"/> Aprendido a crear webs y aplicaciones con JavaScript y React.</li>
-                                <li><img src="../assets/img/star.gif" alt="star"/> Desarrollado diferentes programas con Java.</li>
-                                <li><img src="../assets/img/star.gif" alt="star"/> Trabajado con bases de datos como MongoDB, Firebase y MySQL.</li>
-                                <li><img src="../assets/img/star.gif" alt="star"/> Desarrollado aplicaciones en Android.</li>
-                                <li><img src="../assets/img/star.gif" alt="star"/> Aprendido a crear aplicaciónes utiles y amables con la UX.</li>
+                                <li><img src={star} alt="star"/> Desarrollado alphas de videojuegos en Unity con C#.</li>
+                                <li><img src={star} alt="star"/> Aprendido a crear webs y aplicaciones con JavaScript y React.</li>
+                                <li><img src={star} alt="star"/> Desarrollado diferentes programas con Java.</li>
+                                <li><img src={star} alt="star"/> Trabajado con bases de datos como MongoDB, Firebase y MySQL.</li>
+                                <li><img src={star} alt="star"/> Desarrollado aplicaciones en Android.</li>
+                                <li><img src={star} alt="star"/> Aprendido a crear aplicaciónes utiles y amables con la UX.</li>
                             </ul>
                         </p>
                         <p>Todo esto lo he realizado en el CFGS de DAM en la Universidad Alfonso X El Sabio (UAX).</p>
@@ -32,10 +33,10 @@ function Home() {
                         <h4>‎</h4>
                         <p>Tras terminar mi formación he realizado practicas como QA desempeñando las siguientes funciones:</p>
                         <ul>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Revisión de código y documentación de proyectos.</li>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Pruebas de usabilidad y experiencia de usuario.</li>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Pruebas de rendimiento y seguridad en aplicaciones web.</li>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Colaboración con el equipo de desarrollo para mejorar la calidad del software.</li>
+                            <li><img src={star} alt="star"/> Revisión de código y documentación de proyectos.</li>
+                            <li><img src={star} alt="star"/> Pruebas de usabilidad y experiencia de usuario.</li>
+                            <li><img src={star} alt="star"/> Pruebas de rendimiento y seguridad en aplicaciones web.</li>
+                            <li><img src={star} alt="star"/> Colaboración con el equipo de desarrollo para mejorar la calidad del software.</li>
                         </ul>
                         <p>Estas practicas las he realizado en la Asociación Innicia.</p>
                         <p>Marzo de 2025 - Junio de 2025</p>
@@ -57,18 +58,18 @@ function Home() {
                     <div className={styles.skillsNdLanguages}>
                         <h2>Habilidades</h2>
                         <ul>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Muy Paciente</li>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Creativo</li>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Mente Abierta</li>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Flexibilidad</li>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Trabajo en equipo</li>
+                            <li><img src={star} alt="star"/> Muy Paciente</li>
+                            <li><img src={star} alt="star"/> Creativo</li>
+                            <li><img src={star} alt="star"/> Mente Abierta</li>
+                            <li><img src={star} alt="star"/> Flexibilidad</li>
+                            <li><img src={star} alt="star"/> Trabajo en equipo</li>
                         </ul>
                                     
                         <h2>Idiomas</h2>
                         <ul>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Español (Nativo)</li>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Inglés (B2)</li>
-                            <li><img src="../assets/img/star.gif" alt="star"/> Francés (Aprendiendo)</li>
+                            <li><img src={star} alt="star"/> Español (Nativo)</li>
+                            <li><img src={star} alt="star"/> Inglés (B2)</li>
+                            <li><img src={star} alt="star"/> Francés (Aprendiendo)</li>
                         </ul>
                     </div> 
                 </div>

@@ -103,7 +103,7 @@
 }
 
 .lost{
-    background-image: url('../../public/assets/img/gameover.gif');
+    background-image: url('/src/assets/img/gameover.gif');
     background-size: cover;
     background-position: center;
     width: 220px;
@@ -115,7 +115,7 @@
 .lost button{
     margin-top: 220px;
     margin-left: 18%;
-    background-image: url('../../public/assets/img/reiniciarBoton.gif');
+    background-image: url('/src/assets/img/reiniciarBoton.gif');
     background-size: cover;
     background-position: center;
     background-color: transparent;
@@ -126,7 +126,7 @@
 }
 
 .won {
-    background-image: url('../../public/assets/img/victory.gif');
+    background-image: url('/src/assets/img/victory.gif');
     background-size: cover;
     background-position: center;
     width: 220px;
@@ -139,7 +139,7 @@
 .won button {
     margin-top: 240px;
     margin-left: 5%;
-    background-image: url('../../public/assets/img/reiniciarBoton.gif');
+    background-image: url('/src/assets/img/reiniciarBoton.gif');
     background-size: cover;
     background-position: center;
     background-color: transparent;
@@ -153,7 +153,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    background-image: url('/public/assets/img/glomp.png');
+    background-image: url('/src/assets/img/glomp.png');
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -163,7 +163,7 @@
     position: absolute;
     width: 30px;
     height: 25px;
-    background-image: url('/public/assets/img/limo.png');
+    background-image: url('/src/assets/img/limo.png');
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -173,7 +173,7 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  background-image: url('/public/assets/img/bullet.png');
+  background-image: url('/src/assets/img/bullet.png');
   border-radius: 50%;
   pointer-events: none;
   z-index: 1;
