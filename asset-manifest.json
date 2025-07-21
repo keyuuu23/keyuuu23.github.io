@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f763a892.css",
-    "main.js": "/static/js/main.57fe9ec7.js",
+    "main.js": "/static/js/main.a3a2b310.js",
     "static/js/453.ad7768ec.chunk.js": "/static/js/453.ad7768ec.chunk.js",
     "static/media/portadaMB.png": "/static/media/portadaMB.27a40802814ca6ab2ae2.png",
     "static/media/portadaGAA.png": "/static/media/portadaGAA.692cc5eab7d8fc5eed20.png",
@@ -15,11 +15,11 @@
     "static/media/tocadiscosoff.gif": "/static/media/tocadiscosoff.6eec74f6296892933bd0.gif",
     "index.html": "/index.html",
     "main.f763a892.css.map": "/static/css/main.f763a892.css.map",
-    "main.57fe9ec7.js.map": "/static/js/main.57fe9ec7.js.map",
+    "main.a3a2b310.js.map": "/static/js/main.a3a2b310.js.map",
     "453.ad7768ec.chunk.js.map": "/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f763a892.css",
-    "static/js/main.57fe9ec7.js"
+    "static/js/main.a3a2b310.js"
   ]
 }
